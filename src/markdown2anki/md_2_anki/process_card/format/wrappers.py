@@ -22,3 +22,7 @@ def wrap_tab_label(label: str) -> Types.HTMLString:
 
 def wrap_tab_body(body: Types.HTMLString) -> Types.HTMLString:
     return f'<div class="tab__body"><div class="tab__body__content">{body}</div></div>'
+
+
+def wrap_body(body: Types.HTMLString) -> Types.HTMLString:
+    return f'<div class="body"><div class="body__content">{body}</div></div>'
