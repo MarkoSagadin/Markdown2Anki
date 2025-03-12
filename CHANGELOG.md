@@ -17,6 +17,9 @@ option is by default disabled, to ensure that it's addition doesn't break existi
 users. (@MarkoSagadin)
 - Added first configuration option for frontmatter metadata blocks in the input markdown files! [Frontmatter blocks] allow you to configure options per single markdown file. The first added property is called `no_tabs`. When set to `True`, it disables tabs in generated cards. (@MarkoSagadin)
 - Added support for uploading cards via AnkiConnect plugin. Generated cards are now by default uploaded to the Anki via the plugin. The addition of the AnkiConnect support means that frontmatter block is mandatory, since some of the fields are required by the plugin to upload the cards to the correct Anki deck, to use the correct note type, etc. (@MarkoSagadin) 
+- Added Dual themes to the `themes` folder. Dual themes contain both light and dark versions of the
+same theme. Users can switch between the two versions by changing the theming preference in the
+Anki clients. (@MarkoSagadin)
 
 ### Changed
 
